@@ -2,6 +2,9 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "app-asmet-ch--preview",
 	"compatibility_date": "2026-11-09",
+	"routes": [
+		{ "pattern": "preview.app.asmet.ch", "custom_domain": true }
+	],
 	"assets": {
 		"directory": "./build",
 		"not_found_handling": "single-page-application"
