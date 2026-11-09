@@ -18,6 +18,12 @@
 			"routes": [
 				{ "pattern": "preview.app.asmet.ch", "custom_domain": true }
 			]
+		},
+		"demo": {
+			"name": "app-asmet-ch--demo",
+			"routes": [
+				{ "pattern": "demo.app.asmet.ch", "custom_domain": true }
+			]
 		}
 	}
 }
